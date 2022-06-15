@@ -7,11 +7,11 @@
   "license": "MIT",
   "version": "0.1.6",
   "private": false,
-  "main": "/lib/cjs/index.js",
-  "browser": "/lib/vue3-pdfjs.esm.js",
-  "module": "/lib/esm/index.js",
-  "unpkg": "/lib/vue3-pdfjs-browser.min.js",
-  "types": "/lib/vue3-pdfjs.d.ts",
+  "main": "cjs/index.js",
+  "browser": "vue3-pdfjs.esm.js",
+  "module": "esm/index.js",
+  "unpkg": "vue3-pdfjs-browser.min.js",
+  "types": "vue3-pdfjs.d.ts",
   "homepage": "https://github.com/randolphtellis/vue3-pdfjs#readme",
   "repository": {
     "type": "git",
@@ -90,5 +90,6 @@
     "vue 3 pdfjs",
     "vue 3 mozilla pdfjs",
     "vue 3 pdf component"
-  ]
+  ],
+  "sideEffects": false
 }
